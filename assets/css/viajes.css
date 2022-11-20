@@ -1,0 +1,112 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+/* navvar*/
+.navbar {
+    margin-top: 0;
+    margin-bottom: 0.5%;
+    padding: 0;
+}
+.navbar a {
+    color: #ffffff;
+    display: flex;
+}
+.navbar-section {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    padding: 20px 0;
+}
+.navbar-brand {
+    align-items: center;
+    display: flex;
+}
+.navbar-brand:active {
+    color:#ffffff;
+}
+
+.title {
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    color: #54963b;
+}
+.carousel-item{
+    height: 700px;
+}
+.carousel-item img{
+    position: absolute;
+    top: -100;
+    left: 0;
+    min-height: 700px; 
+}
+.about-text{
+    text-align: left;
+}
+.icon {
+    text-align: center;
+    background-color: #85b572;
+    padding: 10px;
+    color:#ffffff;
+    margin-bottom: 15px;
+    font-size: 20px;  
+}
+.icon:nth-child(2) {
+    margin-top: 15px;    
+}
+/*cards*/
+.card{
+    box-shadow: none !important;
+}
+.card-text {
+    text-align: left;
+}
+.card img {
+    height: 150px;
+}
+
+.card-title{
+    font-weight:400;
+    color: #57a6af;
+}
+.card-body { 
+    background-color: #ffffff;
+    border: 1px solid #85b572;
+}
+hr{
+    color: #57a6af;
+    margin-bottom: 70px;
+}
+
+.btn, 
+.btn:active
+.btm:hover{
+    background: #85b572 !important;
+    color: #ffffff !important;
+    padding: 10px 30px;
+}
+footer h4{
+    font-weight: bold;
+    padding-left: 30px;
+}
+footer{
+    margin-top: 200px;
+    padding: 30px;
+    background-color:#57a6af;
+    color: white;
+}
+.footer-icon{
+    text-align: right;
+    padding-right: 50px;
+}
+.footer-icon a{
+    color: #ffffff;
+}
+.footer-icon i{
+    padding: 5px;
+    font-size: 25px;
+
+}
+
