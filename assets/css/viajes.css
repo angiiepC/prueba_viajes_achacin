@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
+    scroll-behavior: smooth;
 }
 /* navvar*/
 .navbar {
@@ -14,7 +15,7 @@ body {
 }
 .navbar-section {
     z-index: 1;
-    position: absolute;
+    position: fixed;
     width: 100%;
     padding: 20px 0;
 }
@@ -24,6 +25,9 @@ body {
 }
 .navbar-brand:active {
     color:#ffffff;
+}
+.navbar-white{
+    background-color: #54963b;
 }
 
 .title {
@@ -88,8 +92,8 @@ hr{
     padding: 10px 30px;
 }
 footer h4{
-    font-weight: bold;
     padding-left: 30px;
+    font-weight: 200;
 }
 footer{
     margin-top: 200px;
@@ -110,3 +114,20 @@ footer{
 
 }
 
+@media screen and (max-width: 767px) {
+    .mobile-padding {
+        padding: 0 30px;
+    }
+    .card{
+        width: 100% !important;
+    }
+    footer{
+        text-align: center;
+    }
+    h4 { 
+        padding-left: 0;
+    }
+    .footer-icon {
+        padding-right: 0;
+    }
+}
