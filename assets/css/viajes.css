@@ -120,14 +120,30 @@ footer{
     }
     .card{
         width: 100% !important;
-    }
-    footer{
-        text-align: center;
+        margin-top: 20px;
     }
     h4 { 
         padding-left: 0;
+        margin: 0;
+        text-align: center;
     }
     .footer-icon {
         padding-right: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .carousel-item{
+        height: 500px;
+    }
+    .carousel-item img{
+        top: -50px;
+        min-height: 500px; 
+    }
+    .title {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .navbar {
+        padding: 10px 0 !important;
     }
 }
